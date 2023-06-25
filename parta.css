@@ -1,0 +1,33 @@
+body{
+	background-color: lightcyan;
+	font-family: 'Grape Nuts', cursive;
+	
+
+
+}
+h1{
+	font-size: 75px;
+	font-weight: bold;
+	text-align: center;
+	color: darkgrey;
+	text-decoration: underline;
+
+
+}
+table{
+	font-size: 45px;
+	text-align: center;
+	margin: auto;
+	border: 10px solid rgba(255,45,12,0.4);
+	margin-top: 30px;
+	color: lightpink;
+
+
+
+}	
+input{
+	
+	width: 50%;
+	height: 30px;
+	
+}

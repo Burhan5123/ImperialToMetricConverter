@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" type = "text/css" href="parta.css">
+	<link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Zen+Loop&display=swap" rel="stylesheet">
+	<script src="parta.js"></script>
+
+
+	<title>Lab 5 part A</title>
+
+
+	
+</head>
+<body>
+	 <h1>Imperial to metric conversion</h1><br>
+    
+    <div>
+    <table>
+        <tr><th>Imperial Value in Feet</th><th>Metric value in Meters</th></tr>
+        <tr><td><input type="number" min="0" id="feet1" onchange="convertImperialValue(this.value,this.id);"></td><td><input type="number" min="0" id="meter1" onchange="convertMetricValue(this.value,this.id);"></td></tr>
+        <tr><th>Imperial Value in Gallon</th><th>Metric value in Litre</th></tr>
+        <tr><td><input type="number" min="0" id="gallon1" onchange="convertImperialValue(this.value,this.id);"></td><td><input type="number" min="0" id="litre1" onchange="convertMetricValue(this.value,this.id);"></td></tr>
+        <tr><th>Imperial Value in Pounds</th><th>Metric value in Kilogram</th></tr>
+        <tr><td><input type="number" min="0" id="pounds1" onchange="convertImperialValue(this.value,this.id);"></td><td><input type="number" min="0" id="kilogram1" onchange="convertMetricValue(this.value,this.id);"></td></tr>
+        <tr><th>Imperial Value in Miles</th><th>Metric value in Kilometers</th></tr>
+        <tr><td><input type="number" min="0" id="miles1" onchange="convertImperialValue(this.value,this.id);"></td><td><input type="number" min="0" id="kilometer1" onchange="convertMetricValue(this.value,this.id);"></td></tr> 
+    </table>
+  	</div>
+
+
+	
+</body>
+</html>
